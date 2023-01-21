@@ -62,6 +62,8 @@ const startSlider = () => {
                 activeSlide = sliderItems.length - 2;
                 sliderItems[activeSlide]?.classList.add('slider__item_active');
             }
+
+            
         position = -sliderItems[0].clientWidth * (activeSlide - 1);
         sliderList.style.transform = `translateX(${position}px)`;
         checkSlider();
