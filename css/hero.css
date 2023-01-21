@@ -5,10 +5,13 @@
 .hero__title {
     font-weight: 400;
     font-size: 54px;
-    line-height: 120%;
     text-transform: uppercase;
     max-width: 904px;
     margin: 0 0 36px;
+}
+
+.hero__slider {
+    min-height: 372px;
 }
 
 @media (max-width: 768px) {
